@@ -2,12 +2,20 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/advanced_search">
-            <input type="text" name="q">
-            <input type="submit" value="Advanced Search">
-        </form>
+        <h1>Advanced Search</h1>
+        <h2>Find pages with...</h2>
+        <div class="advanced-boxes">
+            <form action="https://www.google.com/search">
+                <input name="as_q" type="text"><br>
+                <input type="text" name="as_epq"><br>
+                <input type="text" name="as_oq"><br>
+                <input type="text" name="as_eq"><br>
+                <input type="submit" value="Advanced Search">
+            </form>
+        </div>
 
         <a href="index.html">Go back to Google Search</a>
     </body>
