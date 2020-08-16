@@ -1,8 +1,54 @@
 // _base.scss
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
+$main_gray: #222;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+.main-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+
+  .google-img {
+    height: 92px;
+    width: 272px; 
+  }
+
+  .search-input, .search-btn {
+    display: block;
+  }
+
+  .search-input {
+    width: 560px;
+    height: 35px;
+    margin-top: 17px;
+    padding: 0px 14px 8px 5px;
+    border-radius: 30px;
+    border-color: $main_gray;
+  }
+
+  .search-btn {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 20px 110px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+  }
+}
+
+.other-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

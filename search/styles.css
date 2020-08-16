@@ -2,4 +2,67 @@ body {
   font: 100% Helvetica, sans-serif;
   color: #333;
 }
+
+.main-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
+}
+
+.main-search .google-img {
+  height: 92px;
+  width: 272px;
+}
+
+.main-search .search-input, .main-search .search-btn {
+  display: block;
+}
+
+.main-search .search-input {
+  width: 560px;
+  height: 35px;
+  margin-top: 17px;
+  padding: 0px 14px 8px 5px;
+  border-radius: 30px;
+  border-color: #222;
+}
+
+.main-search .search-btn {
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 20px 110px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.other-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=styles.css.map */
